@@ -21,28 +21,28 @@ module.exports = [
       cover: false, // 手机端去掉cover图
     }
   }],
-  /*   ["@vuepress-yard/vuepress-plugin-window", { // 公告插件
-      title: "公告",
-      contentInfo: {
-        title: "欢迎来到Pioneer的个人博客",
-        needImg: true,
-        imgUrl: "/images/app/logo.jpg",
-        content: "喜欢可以添加收藏哦~",
-        contentStyle: {
-          paddingBottom: '4px',
-        }
-      },
-      bottomInfo: {
-        btnText: '关于',
-        linkTo: 'https://github.com/pioneer22'
-      }, // 底部按钮信息
-      windowStyle: {
-        right: '6px',
-        borderWidth: '0',
-      }, // 展示框体的样式
-      closeOnce: true,
-      hideRouteList: [], // 某些路由下隐藏
-    }], */
+  ["@vuepress-yard/vuepress-plugin-window", { // 公告插件
+    title: "公告",
+    contentInfo: {
+      title: "欢迎来到Pioneer的个人博客",
+      needImg: true,
+      imgUrl: "/images/app/logo.jpg",
+      content: "喜欢可以添加收藏哦~",
+      contentStyle: {
+        paddingBottom: '4px',
+      }
+    },
+    bottomInfo: {
+      btnText: '关于',
+      linkTo: 'https://github.com/pioneer22'
+    }, // 底部按钮信息
+    windowStyle: {
+      right: '6px',
+      borderWidth: '0',
+    }, // 展示框体的样式
+    closeOnce: true,
+    hideRouteList: [], // 某些路由下隐藏
+  }],
   [
     "ribbon",  //彩带背景
     {
