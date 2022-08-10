@@ -4,6 +4,7 @@ module.exports = {
   title: "Pioneer",
   description: 'Nothing is impossible for a willing heart!',
   dest: 'public',
+  port: '8888',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
@@ -22,10 +23,10 @@ module.exports = {
   themeConfig: {
     noFoundPageByTencent: false,
     nav: [
-      { text: 'Home', link: '/', icon: 'reco-home' },
+      { text: '主页', link: '/', icon: 'reco-home' },
       // { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
       {
-        text: 'Front',
+        text: '前端',
         icon: 'reco-api',
         items: [
           { text: 'Vue', link: '/front/vue/' },
@@ -34,7 +35,14 @@ module.exports = {
         ]
       },
       {
-        text: 'Contact',
+        text: '面试题',
+        icon: 'reco-coding',
+        items: [
+          { text: '基础题', link: '/front/interview/base' },
+        ]
+      },
+      {
+        text: '联络',
         icon: 'reco-message',
         items: [
           { text: 'GitHub', link: 'https://github.com/pioneer22', icon: 'reco-github' }
@@ -44,16 +52,20 @@ module.exports = {
     sidebar: {
       '/front/vue/': [
         '',
-        'theme',
-        'plugin',
-        'api'
+        'vue-elegant-wrtie',
+        'vue-config',
+        'vue-theory',
+        'vuex',
+        'axios',
+        'Promise'
       ],
       '/front/css/': [
         ''
       ],
       '/front/js/': [
         '',
-        'mst'
+        'mst',
+        'ES6'
       ],
     },
     type: 'blog',
@@ -61,7 +73,7 @@ module.exports = {
     blogConfig: {
       category: {
         location: 2, // 在导航栏菜单中所占的位置，默认2
-        text: 'Categories' // 默认 “分类”
+        text: '分类' // 默认 “分类”
       },
       /*  tag: {
          location: 3, // 在导航栏菜单中所占的位置，默认3
@@ -70,9 +82,9 @@ module.exports = {
     },
     friendLink: [
       {
-        title: '午后南杂',
+        title: '闪现上空篮',
         desc: 'Enjoy when you can, and endure when you must.',
-        email: '1156743527@qq.com',
+        email: '260245463@qq.com',
         link: 'https://www.recoluan.com'
       },
       {
