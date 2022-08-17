@@ -67,7 +67,7 @@ cond(no)->e
 <Meting server="netease" type="playlist" mid="2227373273" :lrc-type="3" />
 ```
 
-<!-- <Meting server="netease" type="playlist" mid="2227373273" :lrc-type="3" /> -->
+<Meting server="netease" type="playlist" mid="2227373273" :lrc-type="3" />
 
 ::: warning
 公告插件
