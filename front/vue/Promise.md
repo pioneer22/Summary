@@ -8,6 +8,9 @@ date: 2022-08-08
 :::
 
 ```js
+为什么会有Promise?
+回调地狱(业务逻辑复杂)
+
 三个状态
 pending, fulfilled, rejected
 

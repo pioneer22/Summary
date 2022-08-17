@@ -98,3 +98,44 @@ function retry(fn, times = 0, delay = 0) {
 调用：
 retry(func, 5, 1000 ).then(res=>{}).catch(e=>{})
 ```
+
+::: warning
+**发布订阅者模式**
+:::
+
+```js
+使用发布-订阅者模式解耦代码
+解耦 => 更好的复用, 维护
+利用闭包
+1. 创建私有域
+2. 延长变量的生命周期, 定义局部变量并且需要它常驻于内存当中
+return => 保持对这个变量的引用
+
+let Event = (function () {
+  let list = {},
+    listen,
+    trigger;
+  listen = function(key, fn){
+    (list[key] || list[key] = []).push(fn)
+  }
+  trigger = function(){
+    let key = Array.prototype.shift.call(arguments), fns = list[key];
+    if(!fns || fns.length === 0){
+      return;
+    }
+    for(let i = 0, fn; fn = fns[i++];){
+      fn.apply(this,arguments);
+    }
+  }
+  return {
+    listen: listen,
+    trigger: trigger
+  }
+})();
+
+// 调用
+Event.listen('cr', function(age){
+  console.log(`今年${age}岁!`)
+});
+Event.trigger('cr', 18);
+```

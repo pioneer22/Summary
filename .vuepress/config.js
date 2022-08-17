@@ -32,6 +32,7 @@ module.exports = {
           { text: 'Vue', link: '/front/vue/' },
           { text: 'Css', link: '/front/css/' },
           { text: 'Js', link: '/front/js/' },
+          { text: 'Node', link: '/front/node/' },
         ]
       },
       {
@@ -42,7 +43,7 @@ module.exports = {
         ]
       },
       {
-        text: '联络',
+        text: '联系',
         icon: 'reco-message',
         items: [
           { text: 'GitHub', link: 'https://github.com/pioneer22', icon: 'reco-github' }
@@ -67,6 +68,9 @@ module.exports = {
         'mst',
         'ES6'
       ],
+      '/front/node/': [
+        '',
+      ]
     },
     type: 'blog',
     // 博客设置

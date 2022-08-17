@@ -16,6 +16,8 @@ render() 与 template 异同点 => 都是类编译器
 
 Vue的渲染过程
 template => render() h => 原生JS的createElement() => 创建真实元素 => 生成虚拟DOM => 真实DOM
+
+如果想拿到render 中第二个参数context的值, 需要设置 functional: true, 来说明函数式组件
 ```
 
 ```html
