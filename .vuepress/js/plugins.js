@@ -21,7 +21,7 @@ module.exports = [
       cover: false, // 手机端去掉cover图
     }
   }],
-  /*   ["@vuepress-yard/vuepress-plugin-window", { // 公告插件
+  /*  ["@vuepress-yard/vuepress-plugin-window", { // 公告插件
       title: "公告",
       contentInfo: {
         title: "欢迎来到Pioneer的个人博客",
