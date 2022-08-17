@@ -69,15 +69,15 @@ module.exports = [
       recoverTime: 2000
     }
   ],
-  [
-    '@vuepress\plugin-medium-zoom', { //图片放大插件
-      selector: '.page img',
-      delay: 1000,
-      options: {
-        margin: 24,
-        background: 'rgba(25,18,25,0.9)',
-        scrollOffset: 40
-      }
-    }
-  ],
+  /*  [
+     '@vuepress\plugin-medium-zoom', { //图片放大插件
+       selector: '.page img',
+       delay: 1000,
+       options: {
+         margin: 24,
+         background: 'rgba(25,18,25,0.9)',
+         scrollOffset: 40
+       }
+     }
+   ], */
 ]
