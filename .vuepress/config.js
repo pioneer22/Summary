@@ -23,10 +23,10 @@ module.exports = {
   themeConfig: {
     noFoundPageByTencent: false,
     nav: [
-      { text: '主页', link: '/', icon: 'reco-home' },
+      { text: 'Home', link: '/', icon: 'reco-home' },
       // { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
       {
-        text: '前端',
+        text: 'Front',
         icon: 'reco-api',
         items: [
           { text: 'Vue', link: '/front/vue/' },
@@ -36,14 +36,14 @@ module.exports = {
         ]
       },
       {
-        text: '面试题',
+        text: 'InterView',
         icon: 'reco-coding',
         items: [
           { text: '基础题', link: '/front/interview/base' },
         ]
       },
       {
-        text: '联系',
+        text: 'Contact',
         icon: 'reco-message',
         items: [
           { text: 'GitHub', link: 'https://github.com/pioneer22', icon: 'reco-github' }
