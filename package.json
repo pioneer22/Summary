@@ -9,7 +9,6 @@
     "build": "vuepress build ."
   },
   "devDependencies": {
-    "@vuepress-yard/vuepress-plugin-window": "^1.0.10",
     "@vuepress/plugin-medium-zoom": "^1.9.7",
     "ribbon": "^0.2.1",
     "vuepress": "1.8.2",
