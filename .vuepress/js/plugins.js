@@ -5,7 +5,7 @@ module.exports = [
     meting: {
       server: "netease", // 网易
       type: "playlist", // 读取歌单
-      mid: "2227373273",
+      mid: "2201957752",
     },
     aplayer: { // 不配置该项的话不会出现全局播放器
       fixed: true, // 吸底模式
