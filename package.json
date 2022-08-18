@@ -2,7 +2,6 @@
   "name": "Summary",
   "version": "1.0.0",
   "author": "pioneer",
-  "private": true,
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev . --open --host \"localhost\" --temp .temp",
